@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "207405962845",
+    "project_id": "meditation-flutter",
+    "storage_bucket": "meditation-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207405962845:android:dad96c962f56554a959fb4",
+        "android_client_info": {
+          "package_name": "com.energylinkint.meditation_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207405962845-pu8a2f3m1j4n6ia0dm258qv9vhcjcj1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVKAXlIaGwCwKlv-qz4kC3zd4fxk8jONo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207405962845-pu8a2f3m1j4n6ia0dm258qv9vhcjcj1b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "207405962845-r1jldefovv44gv5k3jln0spfufe718ho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.energylink-int.meditation-flutter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207405962845:android:d4521a6b785b7749959fb4",
+        "android_client_info": {
+          "package_name": "com.example.image_galally"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207405962845-pu8a2f3m1j4n6ia0dm258qv9vhcjcj1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVKAXlIaGwCwKlv-qz4kC3zd4fxk8jONo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207405962845-pu8a2f3m1j4n6ia0dm258qv9vhcjcj1b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "207405962845-r1jldefovv44gv5k3jln0spfufe718ho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.energylink-int.meditation-flutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
