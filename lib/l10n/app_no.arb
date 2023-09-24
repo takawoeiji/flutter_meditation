@@ -4,7 +4,7 @@
 "message":"Du har trykket på knappen så mange ganger",
 "msgEmailError":"Vennligst skriv inn en gyldig e-post adresse.",
 "msgNameError":"Vennligst skriv inn minst 4 tegn.",
-"msgPswdError":"Passordet må være minst 7 charactors langt.",
+"msgPswdError":"Passordet må være minst 7 characters lange.",
 "email_address":"epostadresse",
 "user_name":"Brukernavn",
 "password":"Passord",
@@ -12,4 +12,5 @@
 "login":"Logg Inn",
 "logout":"Logg ut",
 "sign_up":"Melde deg på",
-"have_accouont":"Jeg har allerede en konto"}
+"have_accouont":"Jeg har allerede en konto",
+"category_title":"Kategori"}

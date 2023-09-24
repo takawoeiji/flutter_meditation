@@ -9,7 +9,8 @@
 "user_name":"Nome de usuario",
 "password":"Contrasinal",
 "create_new_account":"Crear unha nova conta",
-"login":"Iniciar sesión",
+"login":"Acceder",
 "logout":"Sesión de sesión",
-"sign_up":"Rexistrarse",
-"have_accouont":"Xa teño unha conta"}
+"sign_up":"Incribirse",
+"have_accouont":"Xa teño unha conta",
+"category_title":"Categoría"}

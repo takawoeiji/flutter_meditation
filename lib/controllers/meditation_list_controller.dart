@@ -44,12 +44,12 @@ class MeditationListController
     extends StateNotifier<AsyncValue<List<Meditation>>> {
   final Ref _ref;
 
-  MeditationListController(this._ref) : super(AsyncValue.loading()) {
+  MeditationListController(this._ref) : super(const AsyncValue.loading()) {
     retrieveMeditations();
   }
 
   Future<void> retrieveMeditations({bool isRefreshing = false}) async {
-    if (isRefreshing) state = AsyncValue.loading();
+    if (isRefreshing) state = const AsyncValue.loading();
     try {
       final meditations =
           await _ref.read(meditationRepositoryProvider).retrieveMeditations();

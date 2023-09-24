@@ -32,10 +32,12 @@ class _AuthScreenState extends State<AuthScreen> {
     try {
       if (isLogin) {
         // Sign in
-        debugPrint('sign in');
+        debugPrint('sign in in auth_screen.dart');
+        debugPrint(email);
         userCredential = await _auth.signInWithEmailAndPassword(
             email: email, password: password);
         debugPrint(userCredential.toString());
+        debugPrint('ERRRRR');
       } else {
         // Sign up
         userCredential = await _auth.createUserWithEmailAndPassword(
@@ -59,14 +61,15 @@ class _AuthScreenState extends State<AuthScreen> {
 
       ScaffoldMessenger.of(ctx).showSnackBar(SnackBar(
         content: Text(message!),
-        backgroundColor: Theme.of(ctx).errorColor,
+        backgroundColor: Theme.of(ctx).colorScheme.error,
       ));
       // .of(context).showBodyScrim(value, opacity)
       // showBottomSheet((context) => null)
     } catch (err) {
+      debugPrint(err.toString());
       ScaffoldMessenger.of(ctx).showSnackBar(SnackBar(
-        content: const Text('This is a pen'),
-        backgroundColor: Theme.of(ctx).errorColor,
+        content: const Text('This is a Apple pen'),
+        backgroundColor: Theme.of(ctx).colorScheme.error,
       ));
     }
   }

@@ -1,7 +1,7 @@
 // import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:image_galally/controllers/meditation_list_controller.dart';
+import '../controllers/meditation_list_controller.dart';
 import 'package:image_galally/models/category_model.dart';
 import 'package:image_galally/models/meditation_model.dart';
 // import 'package:flutter/services.dart';
@@ -39,7 +39,7 @@ class _MeditationListScreenState extends ConsumerState<MeditationListScreen> {
     final meditationState = ref.watch(meditationListControllerProvider);
     return Scaffold(
       appBar: AppBar(title: const Text('<Meditation List')),
-      endDrawer: NavigationDrawer(),
+      endDrawer: const NavigationDrawers(),
       body: SafeArea(
           // https://www.azukipan.com/posts/flutter-gridview/
           // https://gist.github.com/usimsek/cbfd8922a324a5f9a8da199de0b3e29d
@@ -62,6 +62,8 @@ class _MeditationListScreenState extends ConsumerState<MeditationListScreen> {
         // gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         //     crossAxisCount: 2, crossAxisSpacing: 8.0, mainAxisSpacing: 8.0),
         itemBuilder: (context, index) {
+          var a = '${ImageFileLocation.meditation}$index.jpg';
+          print(a);
           return GestureDetector(
             onTap: () {
               Navigator.push(
@@ -77,20 +79,20 @@ class _MeditationListScreenState extends ConsumerState<MeditationListScreen> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Image.asset(
-                    ImageFileLocation.meditation + index.toString() + '.jpg',
+                    '${ImageFileLocation.meditation}$index.jpg',
                     // images[index],
                     width: 160.0,
                   ),
                 ),
-                Column(
+                const Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    const Text(
+                    Text(
                       'AAAAAAAAAAAAAAAAAAAAAA',
                     ),
-                    const Text('AAAAAAAAAAAAAAAAAAAAAA'),
-                    const Text('AAAAAAAAAAAAAAAAAAAAAA'),
-                    const Text('AAAAAAAAAAAAAAAAAAAAAA'),
+                    Text('AAAAAAAAAAAAAAAAAAAAAA'),
+                    Text('AAAAAAAAAAAAAAAAAAAAAA'),
+                    Text('AAAAAAAAAAAAAAAAAAAAAA'),
                   ],
                 )
 

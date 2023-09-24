@@ -1,5 +1,5 @@
 {"@@locale":"hu",
-"hello":"Szia",
+"hello":"Helló",
 "title":"Flutter Demo honlap",
 "message":"Sokszor megnyomta a gombot",
 "msgEmailError":"Kérjük valós e-mail címet adjon meg!",
@@ -12,4 +12,5 @@
 "login":"Belépés",
 "logout":"Kijelentkezés",
 "sign_up":"Regisztrálj",
-"have_accouont":"Már van számlám"}
+"have_accouont":"Már van számlám",
+"category_title":"Kategória"}

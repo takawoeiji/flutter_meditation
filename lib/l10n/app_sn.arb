@@ -1,5 +1,5 @@
 {"@@locale":"sn",
-"hello":"mhoro",
+"hello":"Mhoro",
 "title":"Flutter demo imba peji",
 "message":"Iwe wakasundira bhatani rino kakawanda",
 "msgEmailError":"Ndokumbira utore email yakakodzera kero.",
@@ -12,4 +12,5 @@
 "login":"Login",
 "logout":"Kubuda",
 "sign_up":"Nyorera",
-"have_accouont":"Ini ndatova neaccount"}
+"have_accouont":"Ini ndatova neaccount",
+"category_title":"Chikamu"}

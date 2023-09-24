@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 // import 'package:image_galally/l10n/makeArb.dart';
 // import 'package:image_galally/utils/audio_file.dart';
 import 'package:image_galally/utils/neu_box.dart';
-import 'package:percent_indicator/linear_percent_indicator.dart';
-import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:image_galally/utils/downloading_dialog.dart';
 // import 'package:just_audio/just_audio.dart';
 // import 'package:just_audio_backgroud/just_audio_background.dart';
@@ -48,7 +46,7 @@ class _MplayScreenState extends State<MplayScreen> {
   }
 
   Widget slider() {
-    return Container(
+    return SizedBox(
       width: 300.0,
       child: Slider.adaptive(
           activeColor: Colors.blue[800],
@@ -84,7 +82,7 @@ class _MplayScreenState extends State<MplayScreen> {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: const _CustomAppBar(),
-        endDrawer: const NavigationDrawer(),
+        endDrawer: const NavigationDrawers(),
         body: Padding(
           padding: const EdgeInsets.all(12.0),
           child: Column(
@@ -119,14 +117,14 @@ class _MplayScreenState extends State<MplayScreen> {
                       borderRadius: BorderRadius.circular(8),
                       child: Image.asset('assets/images/category/1.jpg'),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.all(12.0),
+                    const Padding(
+                      padding: EdgeInsets.all(12.0),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: const [
+                            children: [
                               Text(
                                 'Dota The Friend',
                                 style: TextStyle(
@@ -147,7 +145,7 @@ class _MplayScreenState extends State<MplayScreen> {
                               ),
                             ],
                           ),
-                          const Icon(Icons.favorite,
+                          Icon(Icons.favorite,
                               color: Colors.red, size: 32),
                         ],
                       ),
@@ -284,13 +282,13 @@ class _MplayScreenState extends State<MplayScreen> {
 //   }
 // }
 
-class _CustomAppBar extends StatelessWidget with PreferredSizeWidget {
-  const _CustomAppBar({super.key});
+class _CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const _CustomAppBar();
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text('あの名曲やで'),
+      title: const Text('あの名曲やで'),
       backgroundColor: Colors.transparent,
 //       elevation: 0.0,
 //       leading: const Icon(Icons.grid_view_rounded),

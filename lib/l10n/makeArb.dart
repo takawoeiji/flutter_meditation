@@ -52,12 +52,12 @@ String makeArb(String language, Map<String, String> map) {
   buffer.writeln('{"@@locale":"${language.replaceAll('-', '_')}",');
   for (String key in map.keys) {
     String value = map[key]!;
-    value = value.replaceAll('/', '\/');
+    value = value.replaceAll('/', '/');
     value = value.replaceAll('\\', '\\\\');
     value = value.replaceAll('"', '\\"'); // " -> \"
 
     buffer.writeln('"$key":"$value",');
   }
 
-  return buffer.toString().substring(0, buffer.length - 2) + '}';
+  return '${buffer.toString().substring(0, buffer.length - 2)}}';
 }

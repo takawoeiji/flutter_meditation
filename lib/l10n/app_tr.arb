@@ -1,5 +1,5 @@
 {"@@locale":"tr",
-"hello":"merhaba",
+"hello":"Merhaba",
 "title":"Flutter Demo Ana Sayfası",
 "message":"Düğmeye birçok kez bastın",
 "msgEmailError":"Geçerli bir e.",
@@ -12,4 +12,5 @@
 "login":"Giriş yapmak",
 "logout":"Çıkış Yap",
 "sign_up":"Üye olmak",
-"have_accouont":"Zaten bir hesabım var"}
+"have_accouont":"Zaten bir hesabım var",
+"category_title":"Kategori"}

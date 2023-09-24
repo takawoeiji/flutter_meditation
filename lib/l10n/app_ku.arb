@@ -1,5 +1,5 @@
 {"@@locale":"ku",
-"hello":"slav",
+"hello":"Slav",
 "title":"Rûpela Serûpelê Demo ya Flutter",
 "message":"We gelek caran bişkojka kişand",
 "msgEmailError":"Ji kerema xwe navnîşek e-nameyek derbasdar binivîse.",
@@ -12,4 +12,5 @@
 "login":"Têketin",
 "logout":"Derkeve",
 "sign_up":"Tomar kirin",
-"have_accouont":"Min berê hesabek heye"}
+"have_accouont":"Min berê hesabek heye",
+"category_title":"Liq"}

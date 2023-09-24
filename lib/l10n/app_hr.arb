@@ -7,9 +7,10 @@
 "msgPswdError":"Lozinka mora biti dugačka najmanje 7.",
 "email_address":"email adresa",
 "user_name":"Korisničko ime",
-"password":"Zaporka",
+"password":"Lozinka",
 "create_new_account":"Stvorite novi račun",
 "login":"Prijaviti se",
 "logout":"Odjavite se",
 "sign_up":"Prijaviti se",
-"have_accouont":"Već imam račun"}
+"have_accouont":"Već imam račun",
+"category_title":"Kategorija"}

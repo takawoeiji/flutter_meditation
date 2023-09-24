@@ -19,7 +19,7 @@ abstract class Meditation implements _$Meditation {
     // @Default(false) bool obtained,
   }) = _Meditation;
 
-  factory Meditation.empty() => Meditation(
+  factory Meditation.empty() => const Meditation(
       title: '', medNo: 0, description: '', firestore: '', localName: '');
 
   factory Meditation.fromJson(Map<String, dynamic> json) =>

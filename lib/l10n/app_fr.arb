@@ -1,6 +1,6 @@
 {"@@locale":"fr",
-"hello":"bonjour",
-"title":"Page d'accueil de la démonstration de Flutter",
+"hello":"Bonjour",
+"title":"Page d'accueil de la démo Flutter",
 "message":"Vous avez appuyé sur le bouton cette fois",
 "msgEmailError":"S'il vous plaît, mettez une adresse email valide.",
 "msgNameError":"Veuillez saisir au moins 4 caractères.",
@@ -9,7 +9,8 @@
 "user_name":"Nom d'utilisateur",
 "password":"Mot de passe",
 "create_new_account":"Créer un nouveau compte",
-"login":"Connexion",
+"login":"Se connecter",
 "logout":"Se déconnecter",
 "sign_up":"S'inscrire",
-"have_accouont":"J'ai déjà un compte"}
+"have_accouont":"J'ai déjà un compte",
+"category_title":"Catégorie"}

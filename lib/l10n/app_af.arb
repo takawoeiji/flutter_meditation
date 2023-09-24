@@ -2,7 +2,7 @@
 "hello":"hallo",
 "title":"Fladder demo tuisblad",
 "message":"U het die knoppie al baie keer gedruk",
-"msgEmailError":"Voer 'n geldige e -posadres in.",
+"msgEmailError":"Voer asseblief 'n geldige e -posadres in.",
 "msgNameError":"Voer asseblief ten minste 4 karakters in.",
 "msgPswdError":"Wagwoord moet minstens 7 karaktertrekke lank wees.",
 "email_address":"e-pos adres",
@@ -12,4 +12,5 @@
 "login":"Teken aan",
 "logout":"Teken uit",
 "sign_up":"Teken aan",
-"have_accouont":"Ek het reeds 'n rekening"}
+"have_accouont":"Ek het reeds 'n rekening",
+"category_title":"Kategorie"}

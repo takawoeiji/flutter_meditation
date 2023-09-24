@@ -1,5 +1,5 @@
 {"@@locale":"vi",
-"hello":"xin chào",
+"hello":"Xin chào",
 "title":"Trang chủ demo flutter",
 "message":"Bạn đã nhấn nút này nhiều lần",
 "msgEmailError":"Vui lòng nhập một địa chỉ email hợp lệ.",
@@ -12,4 +12,5 @@
 "login":"Đăng nhập",
 "logout":"Đăng xuất",
 "sign_up":"Đăng ký",
-"have_accouont":"Tôi đã có một tài khoản"}
+"have_accouont":"Tôi đã có một tài khoản",
+"category_title":"Loại"}

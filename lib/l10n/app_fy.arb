@@ -1,5 +1,5 @@
 {"@@locale":"fy",
-"hello":"hallo",
+"hello":"Hallo",
 "title":"Flutter Demo Startpagina",
 "message":"Jo hawwe dizze in protte kearen de knop skood",
 "msgEmailError":"Fier in jildich e-postadres yn.",
@@ -12,4 +12,5 @@
 "login":"Oanmelde",
 "logout":"Útlogge",
 "sign_up":"Ynskriuwe",
-"have_accouont":"Ik haw al in akkount"}
+"have_accouont":"Ik haw al in akkount",
+"category_title":"Kategory"}

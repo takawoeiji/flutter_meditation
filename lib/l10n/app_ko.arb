@@ -1,10 +1,10 @@
 {"@@locale":"ko",
 "hello":"안녕하세요",
 "title":"플러터 데모 홈페이지",
-"message":"당신은 이것을 여러 번 버튼을 눌렀습니다",
+"message":"버튼을 여러 번 밀어 넣었습니다",
 "msgEmailError":"유효한 이메일 주소를 입력하세요.",
 "msgNameError":"최소 4자를 입력하십시오.",
-"msgPswdError":"비밀번호는 최소 7 개의 charactors 길이 여야합니다.",
+"msgPswdError":"비밀번호는 7 개 이상의 charactors 길이 여야합니다.",
 "email_address":"이메일 주소",
 "user_name":"사용자 이름",
 "password":"비밀번호",
@@ -12,4 +12,5 @@
 "login":"로그인",
 "logout":"로그 아웃",
 "sign_up":"가입하기",
-"have_accouont":"이미 계정이 있습니다"}
+"have_accouont":"이미 계정이 있습니다",
+"category_title":"범주"}

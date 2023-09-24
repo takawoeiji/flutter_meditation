@@ -1,5 +1,5 @@
 {"@@locale":"co",
-"hello":"bonghjornu",
+"hello":"Bonghjornu",
 "title":"Flutter Demo Home Pagina",
 "message":"Avete pusatu u buttone chì parechje volte",
 "msgEmailError":"Scrivite un indirizzu email validu.",
@@ -12,4 +12,5 @@
 "login":"Login",
 "logout":"Scunnettà si",
 "sign_up":"Firma",
-"have_accouont":"Aghju digià un contu"}
+"have_accouont":"Aghju digià un contu",
+"category_title":"Categoria"}

@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 class AudioPlayScreen extends StatefulWidget {
+  const AudioPlayScreen({super.key});
+
   // final player = AudioPlayer();
   // AudioPlayScreen({super.key});
 

@@ -1,5 +1,5 @@
 {"@@locale":"it",
-"hello":"ciao",
+"hello":"Ciao",
 "title":"Home page della demo di Flutter",
 "message":"Hai premuto il pulsante così tante volte",
 "msgEmailError":"Si prega di inserire un indirizzo email valido.",
@@ -12,4 +12,5 @@
 "login":"Login",
 "logout":"Disconnettersi",
 "sign_up":"Iscrizione",
-"have_accouont":"Ho già un account"}
+"have_accouont":"Ho già un account",
+"category_title":"Categoria"}

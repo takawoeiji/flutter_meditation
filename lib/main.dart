@@ -1,23 +1,17 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
-import 'package:image_galally/controllers/category_list_controller.dart';
 import 'package:image_galally/models/user_model.dart';
+import 'package:image_galally/screen/auth_screen.dart';
 // import 'package:image_galally/model/category_data_old.dart';
-import 'package:image_galally/provider/category_data_dao.dart';
-import 'package:image_galally/provider/data/category.dart';
-import 'package:image_galally/provider/provider.dart';
-import 'package:image_galally/repositories/auth_repository.dart';
-import 'package:image_galally/repositories/category_repository.dart';
-import 'package:image_galally/repositories/meditation_repository.dart';
-import 'package:image_galally/repositories/user_repository.dart';
 import 'package:image_galally/screen/category_screen.dart';
-import 'package:image_galally/screen/home_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:image_galally/screen/home_screen.dart';
 import 'package:image_galally/utils/initial_data_setup.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'controllers/category_list_controller.dart';
 import 'firebase_options.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 // import 'package:image_galally/check_online.dart';
 // import 'package:connectivity_plus/connectivity_plus.dart';
 
@@ -59,17 +53,23 @@ class MyApp extends StatelessWidget {
         //   ),
         //   scaffoldBackgroundColor: Colors.deepPurple.shade200.withOpacity(0.8),
         // ),
-        home: NextPage());
+        home: const NextPage());
+    // home: const HomeScreen());
   }
 }
 
-class NextPage extends HookConsumerWidget {
-  NextPage({super.key});
+class NextPage extends ConsumerWidget {
+  const NextPage({super.key});
   // CategoryDataDao _categoryDataDao = CategoryDataDao();
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    Timer? timer;
     InitialDataSetup().initialize(ref);
+    // Navigator.push(
+    //         context,
+    //         MaterialPageRoute(
+    //           builder: (context) => const HomeScreen(),
     // InitialDataSetup().initialize(ref);
     // var init = InitialDataSetup().initialize(ref);
     // init.initialize(ref);
@@ -81,17 +81,29 @@ class NextPage extends HookConsumerWidget {
     // final authProvider = ref.watch(authRepositoryProvider);
     // final medProvide = ref.watch(meditationRepositoryProvider);
     // final userProvider = ref.watch(userRepositoryProvider);
-    User user = User(
-        username: 'おためし', email: 'abc@a.com', registrationAt: DateTime.now());
+    // User user = User(
+    // username: 'おためし', email: 'abc@a.com', registrationAt: DateTime.now());
     // ref.read(languageProvider.notifier).state = 'cn';
+    // Image.asset('assets/images/category/0.jpg');
+    timer = Timer(const Duration(seconds: 5), () {
+      print('遷移完了');
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const HomeScreen(),
+        ),
+      );
+    });
     return Scaffold(
-      appBar: AppBar(
-        title: Text(AppLocalizations.of(context)!.title),
-        // backgroundColor: Colors.blue[100],
-      ),
+      // appBar: AppBar(
+      //   title: Text(AppLocalizations.of(context)!.title),
+      //   // backgroundColor: Colors.blue[100],
+      // ),
       // ignore: prefer_const_constructors
+      // Image.asset('assets/images/category/0.jpg');
       body: Column(
         children: [
+          Image.asset('assets/images/category/0.jpg'),
           Center(
             child: ElevatedButton(
               onPressed: () async {
@@ -126,7 +138,8 @@ class NextPage extends HookConsumerWidget {
                 // Comment out for test Riverpod
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => CategoryScreen()),
+                  MaterialPageRoute(builder: (context) => const HomeScreen()),
+                  // builder: (context) => const CategoryScreen()),
                   // MaterialPageRoute(builder: (context) => MplayScreen()),
                 );
               },
@@ -137,7 +150,56 @@ class NextPage extends HookConsumerWidget {
       ),
     );
   }
+
+  // @override
+  // _NextScreenState createState() => _NextScreenState();
+  // TODO: implement createState
+  // throw UnimplementedError();
 }
+
+// class _NextScreenState extends State<NextPage> {
+//   Timer? timer;
+
+//   @override
+//   void initState() {
+//     // InitialDataSetup().initialize(WidgetRef ref);
+//     super.initState();
+//     print('Start');
+//     timer = Timer(
+//       const Duration(seconds: 5),
+//       () {
+//         print('遷移完了');
+//         // Navigator.push(
+//         //   context,
+//         //   MaterialPageRoute(
+//         //     builder: (context) => const HomeScreen(),
+//         //   ),
+//         // );
+//       },
+//     );
+//   }
+
+//   @override
+//   void dispose() {
+//     super.dispose();
+//     //disposeメソッド = タイマーが終わるべき時にタイマーを破棄するメソッド。リソースの解放を担う。
+//     timer?.cancel();
+//     //cancelメソッド = disposeなどタイマーが破棄されたりdeactive(日活性状態)になった時に呼び出される。
+//     //もういいTimerは諦めろ〜って感じでコールバック関数をやめさせる効果を持つ
+//   }
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     InitialDataSetup().initialize(ref);
+//     return const Scaffold(
+//       // backgroundColor: AppColors.mainWhite,
+//       body: SafeArea(
+//         child: Center(
+//           child: Text('FirstPage', style: TextStyle(fontSize: 35)),
+//         ),
+//       ),
+//     );
+//   }
 // class _MyAppState extends State<MyApp> {
 //   @override
 //   Widget build(BuildContext context) {
@@ -193,4 +255,5 @@ class NextPage extends HookConsumerWidget {
 //       ),
 //     );
 //   }
+// }
 // }

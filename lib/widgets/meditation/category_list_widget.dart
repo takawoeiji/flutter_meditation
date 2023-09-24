@@ -1,12 +1,9 @@
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:image_galally/controllers/category_list_controller.dart';
 import 'package:image_galally/models/category_model.dart';
 
 import '../../model/old/category_lists.dart';
 import '../../screen/meditation_list_screen.dart';
-import '../../utils/utilties.dart';
 
 class CategoryListWidget extends ConsumerWidget {
   const CategoryListWidget(

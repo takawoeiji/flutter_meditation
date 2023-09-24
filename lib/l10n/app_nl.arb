@@ -1,6 +1,6 @@
 {"@@locale":"nl",
 "hello":"Hallo",
-"title":"HOME Pagina van de flutter demo",
+"title":"HOME PAGINA Demo",
 "message":"Je hebt de knop zo vaak gedrukt",
 "msgEmailError":"Gelieve een geldig e-mailadres in te geven.",
 "msgNameError":"Voer ten minste 4 tekens in.",
@@ -12,4 +12,5 @@
 "login":"Log in",
 "logout":"Uitloggen",
 "sign_up":"Aanmelden",
-"have_accouont":"Ik heb al een account"}
+"have_accouont":"Ik heb al een account",
+"category_title":"Categorie"}

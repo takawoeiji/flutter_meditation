@@ -15,7 +15,7 @@ class MeditationListModel extends ChangeNotifier {
     // print(meditationLists[0].toString());
     fetchMyMeditations();
     // print(_myMeditations[0].toString());
-    _myMeditations.forEach((myModel) {
+    for (var myModel in _myMeditations) {
       int? i = indexOfMeditationList(myModel.medNo);
       // int index = meditationLists.indexWhere(element => element.medNo == i);
       if (i != null) {
@@ -23,7 +23,7 @@ class MeditationListModel extends ChangeNotifier {
         meditationLists[i].expired = myModel.expired;
         meditationLists[i].isFavorite = myModel.isFavorite;
       }
-    });
+    }
     notifyListeners();
   }
 

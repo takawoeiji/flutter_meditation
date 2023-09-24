@@ -1,5 +1,5 @@
 {"@@locale":"gd",
-"hello":"halò",
+"hello":"Halò",
 "title":"Duilleag dachaigh Flutter Demo",
 "message":"Tha thu air am putan a phutadh seo iomadh uair",
 "msgEmailError":"Cuir a-steach seòladh puist-d dligheach.",
@@ -12,4 +12,5 @@
 "login":"Log a-steach",
 "logout":"Log a-mach",
 "sign_up":"Cuir d’ainm ris",
-"have_accouont":"Tha cunntas agam mu thràth"}
+"have_accouont":"Tha cunntas agam mu thràth",
+"category_title":"Roinn-seòrsa"}

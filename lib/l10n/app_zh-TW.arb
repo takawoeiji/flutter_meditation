@@ -11,5 +11,6 @@
 "create_new_account":"建立新帳戶",
 "login":"登錄",
 "logout":"登出",
-"sign_up":"註冊",
-"have_accouont":"我已經有一個帳戶"}
+"sign_up":"報名",
+"have_accouont":"我已經有一個帳戶",
+"category_title":"類別"}

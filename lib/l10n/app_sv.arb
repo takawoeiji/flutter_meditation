@@ -1,6 +1,6 @@
 {"@@locale":"sv",
 "hello":"Hallå",
-"title":"Flutter demo hemsida",
+"title":"Fladder demo hemsida",
 "message":"Du har tryckt på knappen så många gånger",
 "msgEmailError":"Ange en giltig e -postadress.",
 "msgNameError":"Ange minst 4 tecken.",
@@ -12,4 +12,5 @@
 "login":"Logga in",
 "logout":"Logga ut",
 "sign_up":"Bli Medlem",
-"have_accouont":"Jag har redan ett konto"}
+"have_accouont":"Jag har redan ett konto",
+"category_title":"Kategori"}

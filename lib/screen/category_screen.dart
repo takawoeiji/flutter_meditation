@@ -4,8 +4,8 @@ import 'package:image_galally/models/category_model.dart';
 import 'package:image_galally/screen/meditation_list_screen.dart';
 import 'package:image_galally/utils/audio_palyer_manager.dart';
 import 'package:image_galally/utils/navigation_drawer.dart';
-import 'package:image_galally/screen/mplay_screen.dart';
 import 'package:image_galally/utils/neu_box.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../controllers/category_list_controller.dart';
 // import '../widgets/meditation/category_list_widget.dart';
@@ -47,8 +47,10 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
     // return widget;
     final categoryState = ref.watch(categoryListControllerProvider);
     return Scaffold(
-      appBar: AppBar(),
-      endDrawer: NavigationDrawer(),
+      appBar: AppBar(
+          title: Text(AppLocalizations.of(context)!.category_title),
+          backgroundColor: Colors.redAccent),
+      endDrawer: const NavigationDrawers(),
       body: Column(
         children: [
           Center(
@@ -97,7 +99,7 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
     print(categories.length);
     return GridView.builder(
       shrinkWrap: true,
-      physics: NeverScrollableScrollPhysics(),
+      physics: const NeverScrollableScrollPhysics(),
       itemCount: categories.length,
       // itemCount: images.length,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -119,20 +121,20 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
                 Stack(
                   children: [
                     Image.asset(
-                      imageLocation + index.toString() + '.jpg',
+                      '$imageLocation$index.jpg',
                       fit: BoxFit.fill,
                     ),
                     Positioned(
                         top: 110,
                         child: Text(
                           categories[index].title,
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: Colors.white,
                           ),
                         )),
                   ],
                 ),
-                Container(
+                SizedBox(
                   width: double.infinity,
                   child: Text(
                     categories[index].description,

@@ -1,6 +1,6 @@
 {"@@locale":"ms",
 "hello":"Helo",
-"title":"Halaman rumah demo yang berkilauan",
+"title":"Halaman rumah demo flutter",
 "message":"Anda telah menolak butang ini berkali -kali",
 "msgEmailError":"Sila masukkan alamat emel yang sah.",
 "msgNameError":"Sila masukkan sekurang -kurangnya 4 aksara.",
@@ -12,4 +12,5 @@
 "login":"Log masuk",
 "logout":"Log keluar",
 "sign_up":"Daftar",
-"have_accouont":"Saya sudah mempunyai akaun"}
+"have_accouont":"Saya sudah mempunyai akaun",
+"category_title":"Kategori"}

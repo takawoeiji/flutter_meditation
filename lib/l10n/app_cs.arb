@@ -1,9 +1,9 @@
 {"@@locale":"cs",
 "hello":"Ahoj",
 "title":"Flutter Demo Home Page",
-"message":"Tlačítko jste to mnohokrát stiskli",
+"message":"Tlačítko jste mnohokrát stiskli",
 "msgEmailError":"Prosím zadejte platnou emailovou adresu.",
-"msgNameError":"Zadejte alespoň 4 znaky.",
+"msgNameError":"Zadejte prosím alespoň 4 znaky.",
 "msgPswdError":"Heslo musí být dlouhé nejméně 7 charakterů.",
 "email_address":"emailová adresa",
 "user_name":"Uživatelské jméno",
@@ -12,4 +12,5 @@
 "login":"Přihlásit se",
 "logout":"Odhlásit se",
 "sign_up":"Přihlásit se",
-"have_accouont":"Už mám účet"}
+"have_accouont":"Už mám účet",
+"category_title":"Kategorie"}

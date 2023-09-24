@@ -1,4 +1,3 @@
-import 'package:shared_preferences/shared_preferences.dart';
 
 class FirestoreData {
   int? id;
@@ -9,7 +8,7 @@ class FirestoreData {
   DateTime? purchesed;
   DateTime? expired;
 
-  FirestoreData() {}
+  FirestoreData();
 
   getMeditationList() {}
 }

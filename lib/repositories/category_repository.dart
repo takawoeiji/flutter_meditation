@@ -1,13 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
 import 'package:image_galally/extensions/firebase_firestore_extension.dart';
-import 'package:image_galally/repositories/auth_repository.dart';
 // import 'package:image_galally/extensions/firebase_firestore_extension.dart';
 import 'package:image_galally/repositories/general_providers.dart';
 import 'package:image_galally/models/category_model.dart';
 import 'package:image_galally/repositories/custom_exception.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:image_galally/utils/initial_data_setup.dart';
 
 abstract class BaseCategoryRepository {
   Future<List<Category>> retrieveCategories();

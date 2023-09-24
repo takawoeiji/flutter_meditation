@@ -1,9 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Database {
-  FirebaseFirestore _firestore =
+  final FirebaseFirestore _firestore =
       FirebaseFirestore.instance; // Create an instance of Firebase Firestore.
   // CollectionReference
   //     _movies; // this holds a refernece to the Movie collection in our firestore.

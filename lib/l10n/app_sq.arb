@@ -1,6 +1,6 @@
 {"@@locale":"sq",
 "hello":"Përshëndetje",
-"title":"Flutter Demo Faqja kryesore",
+"title":"Faqe Faqja kryesore e Demos Flutter",
 "message":"Ju e keni shtypur butonin këtë shumë herë",
 "msgEmailError":"Ju lutemi shkruani një adresë të vlefshme emaili.",
 "msgNameError":"Ju lutemi shkruani të paktën 4 karaktere.",
@@ -12,4 +12,5 @@
 "login":"Hyrje",
 "logout":"Shkyç",
 "sign_up":"Regjistrohem",
-"have_accouont":"Unë tashmë kam një llogari"}
+"have_accouont":"Unë tashmë kam një llogari",
+"category_title":"Kategori"}

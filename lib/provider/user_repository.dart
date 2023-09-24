@@ -8,9 +8,9 @@ class UserRepository {
     try {
       final snapShot = await fireStore.collection('users').get();
       final userList = <User>[];
-      snapShot.docs.forEach((content) {
+      for (var content in snapShot.docs) {
         userList.add(User.fromJson(content.data()));
-      });
+      }
       return userList;
     } on FirebaseException catch (e) {
       throw e.toString();

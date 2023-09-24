@@ -1,5 +1,5 @@
 {"@@locale":"haw",
-"hello":"aloha",
+"hello":"Aloha",
 "title":"ʻAoʻao home Kōkua Fluster",
 "message":"Ua hukiʻoe i ka pihi i kēia mau manawa",
 "msgEmailError":"Eʻoluʻolu e hoʻokomo i kahi leka uila pololei.",
@@ -12,4 +12,5 @@
 "login":"Loulou",
 "logout":"Lele",
 "sign_up":"Kau inoa",
-"have_accouont":"Loaʻa iaʻu kahi moʻokāki"}
+"have_accouont":"Loaʻa iaʻu kahi moʻokāki",
+"category_title":"KākauohaHuna"}

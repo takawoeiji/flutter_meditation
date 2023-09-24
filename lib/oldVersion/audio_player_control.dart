@@ -90,20 +90,20 @@ class AudioPlayerController extends StatefulWidget {
 late final AudioPlayerManager audioPlayerManager;
 
 class _AudioPlayerController extends State<AudioPlayerController> {
-  var _isShowingWidgetOutline = false;
-  var _labelLocation = TimeLabelLocation.below;
-  var _labelType = TimeLabelType.totalTime;
+  final _isShowingWidgetOutline = false;
+  final _labelLocation = TimeLabelLocation.below;
+  final _labelType = TimeLabelType.totalTime;
   TextStyle? _labelStyle;
-  var _thumbRadius = 10.0;
-  var _labelPadding = 0.0;
-  var _barHeight = 5.0;
-  var _barCapShape = BarCapShape.round;
+  final _thumbRadius = 10.0;
+  final _labelPadding = 0.0;
+  final _barHeight = 5.0;
+  final _barCapShape = BarCapShape.round;
   Color? _baseBarColor;
   Color? _progressBarColor;
   Color? _bufferedBarColor;
   Color? _thumbColor;
   Color? _thumbGlowColor;
-  var _thumbCanPaintOutsideBar = true;
+  final _thumbCanPaintOutsideBar = true;
 
   @override
   void initState() {

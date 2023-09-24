@@ -31,10 +31,10 @@
               "client_type": 3
             },
             {
-              "client_id": "207405962845-r1jldefovv44gv5k3jln0spfufe718ho.apps.googleusercontent.com",
+              "client_id": "207405962845-a4c8kvjslc9lem8t99757e63ukj0d7l7.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.energylink-int.meditation-flutter"
+                "bundle_id": "com.example.imageGalally"
               }
             }
           ]
@@ -67,10 +67,10 @@
               "client_type": 3
             },
             {
-              "client_id": "207405962845-r1jldefovv44gv5k3jln0spfufe718ho.apps.googleusercontent.com",
+              "client_id": "207405962845-a4c8kvjslc9lem8t99757e63ukj0d7l7.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.energylink-int.meditation-flutter"
+                "bundle_id": "com.example.imageGalally"
               }
             }
           ]

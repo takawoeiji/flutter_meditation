@@ -6,10 +6,11 @@
 "msgNameError":"Lūdzu, ievadiet vismaz 4 rakstzīmes.",
 "msgPswdError":"Parolei jābūt vismaz 7 charaktoru garai.",
 "email_address":"epasta adrese",
-"user_name":"Lietotāja vārds",
+"user_name":"Lietotājvārds",
 "password":"Parole",
 "create_new_account":"Izveidot jaunu kontu",
 "login":"Pieslēgties",
 "logout":"Izlogoties",
 "sign_up":"Pierakstīties",
-"have_accouont":"Man jau ir konts"}
+"have_accouont":"Man jau ir konts",
+"category_title":"Kategorija"}

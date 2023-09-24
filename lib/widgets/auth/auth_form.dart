@@ -4,7 +4,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 // import 'package:flutter/src/widgets/framework.dart';
 
 class AuthForm extends StatefulWidget {
-  AuthForm(this.submitFn);
+  const AuthForm(this.submitFn, {super.key});
 
   final void Function(
     String email,
@@ -92,7 +92,7 @@ class _AuthFormState extends State<AuthForm> {
                       ),
                     TextFormField(
                       // Password
-                      key: ValueKey('userpassword'),
+                      key: const ValueKey('userpassword'),
                       validator: (value) {
                         if (value!.isEmpty || value.length < 7) {
                           return AppLocalizations.of(context)!.msgPswdError;

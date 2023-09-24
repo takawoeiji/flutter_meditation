@@ -7,9 +7,10 @@
 "msgPswdError":"Nenosiri lazima liwe angalau charactors 7 kwa muda mrefu.",
 "email_address":"barua pepe",
 "user_name":"Jina la mtumiaji",
-"password":"Nywila",
+"password":"Nenosiri",
 "create_new_account":"Unda akaunti mpya",
 "login":"Ingia",
 "logout":"Kuingia",
 "sign_up":"Jisajili",
-"have_accouont":"Tayari nina akaunti"}
+"have_accouont":"Tayari nina akaunti",
+"category_title":"Jamii"}

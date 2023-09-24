@@ -56,7 +56,7 @@ class _DownloadingDialogState extends State<DownloadingDialog> {
             title: Text(e.toString()),
             actions: <Widget>[
               ElevatedButton(
-                child: Text('OK'),
+                child: const Text('OK'),
                 onPressed: () {
                   Navigator.of(context).pop();
                 },

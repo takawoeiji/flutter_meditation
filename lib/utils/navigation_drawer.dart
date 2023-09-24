@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-class NavigationDrawer extends StatelessWidget {
-  const NavigationDrawer({super.key});
+class NavigationDrawers extends StatelessWidget {
+  const NavigationDrawers({super.key});
 
   @override
   Widget build(BuildContext context) => Drawer(
@@ -32,8 +32,8 @@ class NavigationDrawer extends StatelessWidget {
               top: MediaQuery.of(context).padding.top,
               bottom: 24,
             ),
-            child: Column(
-              children: const [
+            child: const Column(
+              children: [
                 CircleAvatar(
                   radius: 52,
                   // backgroundImage: NetworkImage('url'),

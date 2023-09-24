@@ -4,7 +4,7 @@
 "message":"Tlačidlo ste stlačili mnohokrát",
 "msgEmailError":"Prosím zadajte platnú emailovú adresu.",
 "msgNameError":"Zadajte najmenej 4 znaky.",
-"msgPswdError":"Heslo musí byť najmenej 7 charraktorov dlhé.",
+"msgPswdError":"Heslo musí byť dlhé najmenej 7 charaktorov.",
 "email_address":"emailová adresa",
 "user_name":"Meno používateľa",
 "password":"Heslo",
@@ -12,4 +12,5 @@
 "login":"Prihlásiť sa",
 "logout":"Odhlásiť sa",
 "sign_up":"Prihlásiť Se",
-"have_accouont":"Už mám účet"}
+"have_accouont":"Už mám účet",
+"category_title":"Kategória"}

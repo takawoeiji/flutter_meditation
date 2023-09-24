@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:image_galally/repositories/general_providers.dart';
 import 'package:image_galally/repositories/custom_exception.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -27,6 +28,7 @@ class AuthRepository implements BaseAuthRepository {
     try {
       await _ref.read(firebaseAuthProvider).signInAnonymously();
     } on FirebaseAuthException catch (e) {
+      debugPrint('Anonymous');
       throw CustomException(message: e.message);
     }
   }
@@ -36,6 +38,7 @@ class AuthRepository implements BaseAuthRepository {
     try {
       return _ref.read(firebaseAuthProvider).currentUser;
     } on FirebaseAuthException catch (e) {
+      debugPrint('CurrentUser');
       throw CustomException(message: e.message);
     }
   }
@@ -47,6 +50,7 @@ class AuthRepository implements BaseAuthRepository {
     } on FirebaseAuthException catch (e) {
       throw CustomException(message: e.message);
     }
+    return null;
   }
 
   @override
@@ -55,6 +59,7 @@ class AuthRepository implements BaseAuthRepository {
       await _ref.read(firebaseAuthProvider).signOut();
       await signInAnonymously();
     } on FirebaseAuthException catch (e) {
+      debugPrint('SignOUt');
       throw CustomException(message: e.message);
     }
   }

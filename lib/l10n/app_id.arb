@@ -1,6 +1,6 @@
 {"@@locale":"id",
-"hello":"halo",
-"title":"Halaman rumah demo flutter",
+"hello":"Halo",
+"title":"Halaman Beranda Demo Terbakar",
 "message":"Anda telah menekan tombol ini berkali -kali",
 "msgEmailError":"Silakan isi alamat email.",
 "msgNameError":"Harap masukkan setidaknya 4 karakter.",
@@ -11,5 +11,6 @@
 "create_new_account":"Buat akun baru",
 "login":"Gabung",
 "logout":"Keluar",
-"sign_up":"Daftar",
-"have_accouont":"Saya sudah memiliki akun"}
+"sign_up":"Mendaftar",
+"have_accouont":"Saya sudah memiliki akun",
+"category_title":"Kategori"}

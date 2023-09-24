@@ -19,7 +19,7 @@ abstract class Category implements _$Category {
   }) = _Category;
 
   factory Category.empty() =>
-      Category(title: '', description: '', medNumbers: ['']);
+      const Category(title: '', description: '', medNumbers: ['']);
 
   factory Category.fromJson(Map<String, dynamic> json) =>
       _$CategoryFromJson(json);

@@ -1,8 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 import '../user_status.dart';
-import '../user_status_converter.dart';
-import '../datetime_converter.dart';
 
 part 'user.freezed.dart';
 part 'user.g.dart';

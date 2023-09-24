@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:image_galally/extensions/firebase_firestore_extension.dart';
 import 'package:image_galally/repositories/general_providers.dart';
 import 'package:image_galally/models/meditation_model.dart';
 import 'package:image_galally/repositories/custom_exception.dart';

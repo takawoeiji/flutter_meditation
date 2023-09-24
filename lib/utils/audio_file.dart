@@ -1,8 +1,5 @@
 import 'package:audioplayers/audioplayers.dart';
-import 'package:audioplayers/src/audioplayer.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 // import 'package:just_audio/just_audio.dart';
 // import 'package:just_audio/just_audio.dart';
 
@@ -15,13 +12,13 @@ class AudioFile extends StatefulWidget {
 }
 
 class _AudioFileState extends State<AudioFile> {
-  Duration _duration = new Duration();
-  Duration _position = new Duration();
+  Duration _duration = const Duration();
+  Duration _position = const Duration();
   final String path = 'https://samplelib.com/lib/preview/mp3/sample-15s.mp3';
   bool isPlaying = false;
   bool isPaused = false;
   bool isLoop = false;
-  List<IconData> _icons = [
+  final List<IconData> _icons = [
     Icons.play_circle_fill,
     Icons.pause_circle_filled,
   ];
@@ -85,11 +82,11 @@ class _AudioFileState extends State<AudioFile> {
               children: [
                 Text(
                   _position.toString(),
-                  style: TextStyle(fontSize: 32),
+                  style: const TextStyle(fontSize: 32),
                 ),
                 Text(
                   _duration.toString(),
-                  style: TextStyle(fontSize: 32),
+                  style: const TextStyle(fontSize: 32),
                 ),
               ],
             ),

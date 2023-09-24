@@ -1,6 +1,6 @@
 {"@@locale":"is",
 "hello":"Halló",
-"title":"Flutter Demo Heimasíða",
+"title":"Heimasíða Flutter Demo",
 "message":"Þú hefur ýtt á hnappinn þetta margoft",
 "msgEmailError":"Vinsamlegast sláðu inn gilt netfang.",
 "msgNameError":"Vinsamlegast sláðu inn að minnsta kosti 4 stafir.",
@@ -12,4 +12,5 @@
 "login":"Skrá inn",
 "logout":"Að skrá þig út",
 "sign_up":"Skráðu þig",
-"have_accouont":"Ég er nú þegar með reikning"}
+"have_accouont":"Ég er nú þegar með reikning",
+"category_title":"Flokkur"}

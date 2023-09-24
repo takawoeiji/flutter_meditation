@@ -1,6 +1,6 @@
 {"@@locale":"et",
 "hello":"Tere",
-"title":"Lehvitage demo avaleht",
+"title":"Lehv demo avaleht",
 "message":"Olete nuppu nii mitu korda vajutanud",
 "msgEmailError":"Palun sisesta kehtiv e-posti aadress.",
 "msgNameError":"Sisestage vähemalt 4 tähemärki.",
@@ -12,4 +12,5 @@
 "login":"Logi sisse",
 "logout":"Logi välja",
 "sign_up":"Registreeri",
-"have_accouont":"Mul on juba konto"}
+"have_accouont":"Mul on juba konto",
+"category_title":"Kategooria"}

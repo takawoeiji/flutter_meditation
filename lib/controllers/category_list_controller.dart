@@ -4,8 +4,6 @@ import 'package:image_galally/repositories/custom_exception.dart';
 import 'package:image_galally/repositories/category_repository.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../repositories/general_providers.dart';
-import 'package:image_galally/extensions/firebase_firestore_extension.dart';
 // enum CategoryListFilter {
 //   all,
 //   obtained,
@@ -45,14 +43,14 @@ class CategoryListController extends StateNotifier<AsyncValue<List<Category>>> {
   final Ref _ref;
   // final String? _userId;
 
-  CategoryListController(this._ref) : super(AsyncValue.loading()) {
+  CategoryListController(this._ref) : super(const AsyncValue.loading()) {
     // if (_userId != null) {
     retrieveCategories();
     // }
   }
 
   Future<void> retrieveCategories({bool isRefreshing = false}) async {
-    if (isRefreshing) state = AsyncValue.loading();
+    if (isRefreshing) state = const AsyncValue.loading();
     try {
       final categories =
           await _ref.watch(categoryRepositoryProvider).retrieveCategories();

@@ -1,8 +1,6 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:image_galally/repositories/category_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../models/category_model.dart';
 
 // final languageProvider = StateProvider((ref) => '');
 // late final Ref _ref;

@@ -1,5 +1,5 @@
 {"@@locale":"xh",
-"hello":"mholweni",
+"hello":"Mholo",
 "title":"Iphepha le-Plutter Pam ye-Plall",
 "message":"Utyhale iqhosha eliphindwe kaninzi",
 "msgEmailError":"Nceda ufake idilesi ekhona.",
@@ -12,4 +12,5 @@
 "login":"Ngema",
 "logout":"Phuma",
 "sign_up":"Bhalisa",
-"have_accouont":"Sele ndine-akhawunti"}
+"have_accouont":"Sele ndine-akhawunti",
+"category_title":"Udidi"}

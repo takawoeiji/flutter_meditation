@@ -11,5 +11,6 @@
 "create_new_account":"Stwórz nowe konto",
 "login":"Zaloguj sie",
 "logout":"Wyloguj",
-"sign_up":"Zapisz się",
-"have_accouont":"Mam już konto"}
+"sign_up":"Zapisać się",
+"have_accouont":"Mam już konto",
+"category_title":"Kategoria"}

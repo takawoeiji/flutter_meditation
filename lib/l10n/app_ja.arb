@@ -4,7 +4,7 @@
 "message":"これほど何度もボタンを押しました",
 "msgEmailError":"有効なメールアドレスを入力してください。",
 "msgNameError":"少なくとも4文字を入力してください。",
-"msgPswdError":"パスワードは、少なくとも7つの特性装置でなければなりません。",
+"msgPswdError":"パスワードは、少なくとも7つの特性器でなければなりません。",
 "email_address":"電子メールアドレス",
 "user_name":"ユーザー名",
 "password":"パスワード",
@@ -12,4 +12,5 @@
 "login":"ログイン",
 "logout":"ログアウト",
 "sign_up":"サインアップ",
-"have_accouont":"私はすでにアカウントを持っています"}
+"have_accouont":"私はすでにアカウントを持っています",
+"category_title":"カテゴリー"}

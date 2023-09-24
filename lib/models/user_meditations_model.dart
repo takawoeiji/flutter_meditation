@@ -21,7 +21,7 @@ abstract class UserMeditations implements _$UserMeditations {
     @Default(false) bool isFavarite,
   }) = _UserMeditations;
 
-  factory UserMeditations.empty() => UserMeditations(
+  factory UserMeditations.empty() => const UserMeditations(
         meditationNumber: 0,
         meditationId: '',
       );
